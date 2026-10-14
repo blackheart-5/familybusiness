@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.erdichfoodsghana.com/sitemap.xml
