@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>D-cleo Yogurt — Erdich Foods</title>
+  <meta name="description" content="D-cleo Yogurt by Erdich: creamy probiotic drinking yogurt in Apple, Strawberry, Mango and Vanilla. Also available with wheat berries as a light meal.">
+  <meta name="theme-color" content="#BE1711">
+  <link rel="icon" href="assets/img/erdich-logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body data-page="yogurt">
+  <header data-header></header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="breadcrumb"><a href="index.html">Home</a> / <a href="products.html">Products</a> / D-cleo Yogurt</div>
+          <span class="eyebrow">D-cleo Yogurt by Erdich</span>
+          <h1>Full day <span class="accent">glory!</span></h1>
+          <p class="lead">D-cleo is a creamy drinking yogurt with live probiotic cultures, made from premium whole milk from grass-fed cows. It comes in four flavours, as a classic yogurt or blended with wheat berries for a satisfying light meal.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#showcase">Choose a flavour</a>
+            <a class="btn btn-outline" href="#nutrition">Nutrition facts</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="frame"><img src="assets/img/dcleo-banner.jpg" alt="A bottle of D-cleo strawberry yogurt with wheat berries" width="1080" height="1080"></div>
+          <span class="chip c1"><i style="background:var(--flavor-vanilla)"></i>Vanilla</span>
+          <span class="chip c2"><i style="background:var(--flavor-strawberry)"></i>Strawberry</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive flavour picker -->
+    <section class="section showcase" id="showcase" data-showcase>
+      <div class="container showcase-grid">
+        <div class="showcase-card">
+          <span class="eyebrow">Flavour picker</span>
+          <h2 data-flavor-name class="text-red">Apple</h2>
+          <p class="lead" data-flavor-note></p>
+          <div class="toggle" role="group" aria-label="Product line">
+            <button data-line="classic" aria-pressed="true">Classic</button>
+            <button data-line="wheat" aria-pressed="false">With Wheat Berries</button>
+          </div>
+          <div class="flavor-tabs" data-flavor-tabs role="group" aria-label="Flavour"></div>
+          <div class="mini-facts">
+            <div><strong>330ml</strong>per bottle</div>
+            <div><strong>240</strong>calories</div>
+            <div><strong>13g</strong>protein</div>
+          </div>
+        </div>
+        <div class="showcase-img">
+          <img data-showcase-img src="assets/img/yogurt-apple.jpg" alt="D-cleo Yogurt — Apple" width="1050" height="792">
+        </div>
+      </div>
+    </section>
+
+    <!-- All flavours -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">The range</span>
+          <h2>Four flavours, <span class="text-teal">two ways</span></h2>
+          <p class="lead">Each flavour comes as a classic yogurt, or as a light meal blended with wholesome wheat berries.</p>
+        </div>
+        <div class="flavor-grid reveal" data-flavor-grid></div>
+      </div>
+    </section>
+
+    <!-- Nutrition -->
+    <section class="section" id="nutrition" style="padding-top:0">
+      <div class="container nutrition-grid">
+        <div class="nutrition reveal">
+          <h3>Nutrition Facts</h3>
+          <div class="serv">Servings: 1 per container<br>Serving size: 1 bottle, 330ml / 328g</div>
+          <div class="cal"><span><small>Amount per serving</small><br><strong>Calories</strong></span><strong>240</strong></div>
+          <table>
+            <tr><td></td><td><small>% Daily Value</small></td></tr>
+            <tr><td><b>Total Fat</b> 4.5g</td><td>6%</td></tr>
+            <tr><td class="indent">Saturated Fat 2.5g</td><td>13%</td></tr>
+            <tr><td class="indent">Trans Fat 0g</td><td></td></tr>
+            <tr><td><b>Cholesterol</b> 15mg</td><td>5%</td></tr>
+            <tr><td><b>Sodium</b> 160mg</td><td>7%</td></tr>
+            <tr><td><b>Total Carbohydrate</b> 37g</td><td>13%</td></tr>
+            <tr><td class="indent">Dietary Fiber 3g</td><td>11%</td></tr>
+            <tr><td class="indent">Total Sugars 16g</td><td></td></tr>
+            <tr><td class="indent">Includes 5g Added Sugars</td><td>10%</td></tr>
+            <tr class="thick"><td><b>Protein</b> 13g</td><td>26%</td></tr>
+            <tr><td>Vitamin D 2.5mcg</td><td>15%</td></tr>
+            <tr><td>Calcium 400mg</td><td>30%</td></tr>
+            <tr><td>Iron 1.6mg</td><td>9%</td></tr>
+            <tr><td>Phosphorus 320mg</td><td>25%</td></tr>
+            <tr><td>Potassium 510mg</td><td>10%</td></tr>
+          </table>
+          <p class="fine">The % Daily Value (DV) tells you how much a nutrient in a serving of food contributes to a daily diet. 2,000 calories a day is used for general nutrition advice.</p>
+        </div>
+        <div class="info-cards reveal">
+          <div class="info-card">
+            <h4>Ingredients</h4>
+            <p>Low-fat milk, live active yogurt cultures, filtered water, natural flavour, low sugar.</p>
+          </div>
+          <div class="info-card">
+            <h4>Crafted with care</h4>
+            <p>Made with premium, balanced whole milk from grass-fed cows.</p>
+          </div>
+          <div class="info-card">
+            <h4>Storage</h4>
+            <p>Keep refrigerated. Shake well before opening.</p>
+          </div>
+          <div class="info-card">
+            <h4>Certified</h4>
+            <p>FDA registration: FDA/DA12-040. Contains probiotics. Proudly made in Ghana.</p>
+          </div>
+          <div class="info-card">
+            <h4>Produced &amp; packaged by</h4>
+            <p>Erdich, Amarhia, off Adenta Dodowa Road, P.O. Box 309, Kanda, Ghana.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container reveal">
+      <div class="cta-band">
+        <div>
+          <h2>Bring D-cleo to your store</h2>
+          <p>Call +233 (0) 55 015 6745 or send us a message for wholesale orders.</p>
+        </div>
+        <div class="actions">
+          <a class="btn btn-white" href="index.html#contact">Order wholesale</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer data-footer></footer>
+
+  <script src="assets/js/products.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+/* D-cleo Yogurt / Erdich brand colors — sampled from the label artwork
+   (Downloads: "D-Cleo Yogurt---.pdf", "D-Cleo Yogurt with Wheat Berries-.pdf") */
+:root {
+  /* Core brand */
+  --brand-red: #BE1711;      /* "Yogurt" wordmark */
+  --brand-red-dark: #9F0C12; /* wordmark shadow */
+  --brand-teal: #008A8A;     /* "D-cleo", ERDICH, "Full day glory!", nutrition panel */
+  --brand-sun: #F9C521;      /* ERDICH sun icon */
+  --brand-white: #FFFFFF;    /* logo outline, panels */
+
+  /* Flavor backgrounds */
+  --flavor-strawberry: #FFB5D8; /* pink */
+  --flavor-mango: #FCEB53;      /* yellow */
+  --flavor-vanilla: #8BC24A;    /* lime green */
+  --flavor-vanilla-text: #FAC34E; /* vanilla wordmark gold */
+  --flavor-apple: #059B78;      /* emerald */
+
+  /* Promo banner */
+  --banner-sky: #A8DDF5;        /* "Pure Goodness" social banner */
+
+  --text-dark: #1A1A1A;
+}
