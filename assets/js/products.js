@@ -5,7 +5,7 @@ const YOGURT_FLAVORS = [
   { id: "apple", name: "Apple", color: "#059B78", note: "Crisp red apple folded into creamy, probiotic yogurt." },
   { id: "strawberry", name: "Strawberry", color: "#FFB5D8", note: "Sweet, sun-ripened strawberry in every sip." },
   { id: "mango", name: "Mango", color: "#FCEB53", note: "Juicy tropical mango — a true taste of Ghana." },
-  { id: "vanilla", name: "Vanilla", color: "#8BC24A", note: "Smooth, mellow vanilla for a classic creamy treat." },
+  { id: "vanilla", name: "Vanilla", color: "#8BC24A", note: "Smooth, mellow vanilla for a creamy everyday treat." },
 ];
 
 const PRODUCTS = [
@@ -16,7 +16,7 @@ const PRODUCTS = [
     badge: "Bestseller",
     image: "assets/img/yogurt-strawberry.jpg",
     bg: "#FFB5D8",
-    description: "Creamy drinking yogurt with live probiotic cultures, made from whole milk from grass-fed cows. 330ml.",
+    description: "Creamy probiotic drinking yogurt made from whole milk from grass-fed cows. Plain or flavoured, sweetened or unsweetened. 330ml.",
     swatches: YOGURT_FLAVORS.map((f) => f.color),
     href: "dcleo-yogurt.html",
   },
@@ -31,7 +31,7 @@ const PRODUCTS = [
     swatches: YOGURT_FLAVORS.map((f) => f.color),
     href: "dcleo-yogurt.html?line=wheat",
   },
-  { id: "coming-1", placeholder: true, name: "New product", category: "Coming soon", description: "Something delicious is on the way from the Erdich kitchen." },
-  { id: "coming-2", placeholder: true, name: "New product", category: "Coming soon", description: "Something delicious is on the way from the Erdich kitchen." },
-  { id: "coming-3", placeholder: true, name: "New product", category: "Coming soon", description: "Something delicious is on the way from the Erdich kitchen." },
+  { id: "coming-1", placeholder: true, name: "New product", category: "Coming soon", description: "Something delicious is on the way from the Erdich NourishNest." },
+  { id: "coming-2", placeholder: true, name: "New product", category: "Coming soon", description: "Something delicious is on the way from the Erdich NourishNest." },
+  { id: "coming-3", placeholder: true, name: "New product", category: "Coming soon", description: "Something delicious is on the way from the Erdich NourishNest." },
 ];
