@@ -57,7 +57,7 @@ function renderChrome() {
         <div class="footer-grid">
           <div>
             <span class="footer-logo"><img src="assets/img/erdich-logo.png" alt="Erdich Foods"></span>
-            <p>Wholesome, delicious food and drinks for families, individuals, schools, institutions and events — proudly made in Ghana.</p>
+            <p>Wholesome, delicious food and antioxidant drinks for families, individuals, schools, institutions and events — proudly made in Ghana.</p>
           </div>
           <div>
             <h4>Explore</h4>
